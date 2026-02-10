@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B1813"
+    tools:context=".MainActivity">
+
+
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#1B1813"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+    </WebView>
+
+    <LinearLayout
+        android:id="@+id/splash_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1B1813"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progressBackgroundTint="#c77dff"
+            android:progressTint="#7b2cbf" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/instructionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa"
+        android:text="hey! where to?"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#F6F6F6"
+
+        android:focusable="false"
+        android:clickable="false"
+        android:longClickable="false"
+
+        app:layout_constraintBottom_toBottomOf="@+id/webview"
+        app:layout_constraintEnd_toEndOf="@+id/webview"
+        app:layout_constraintStart_toStartOf="@+id/webview"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/menubtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="60dp"
+        android:alpha="50"
+        android:clickable="true"
+        app:backgroundTint="#1B1813"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"
+        app:srcCompat="@drawable/menu_navigation_grid_1528_svgrepo_com"
+        app:tint="#ffffff" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/reddit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        app:backgroundTint="#1B1813"
+        app:layout_constraintBottom_toTopOf="@+id/menubtn"
+        app:layout_constraintEnd_toEndOf="@+id/menubtn"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"
+        app:srcCompat="@drawable/reddit_svgrepo_com"
+        app:tint="#ffffff" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        app:backgroundTint="#1B1813"
+        app:layout_constraintBottom_toTopOf="@+id/reddit"
+        app:layout_constraintEnd_toEndOf="@+id/reddit"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"
+        app:srcCompat="@drawable/facebook_svgrepo_com"
+        app:tint="#ffffff" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/viewbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        app:backgroundTint="#1B1813"
+        app:layout_constraintBottom_toBottomOf="@+id/menubtn"
+        app:layout_constraintRight_toLeftOf="@+id/menubtn"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"
+        app:srcCompat="@drawable/screen_capture_svgrepo_com"
+        app:tint="#ffffff" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/reload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        app:backgroundTint="#1B1813"
+        app:layout_constraintBottom_toBottomOf="@id/menubtn"
+        app:layout_constraintRight_toLeftOf="@+id/viewbtn"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"
+        app:srcCompat="@drawable/reload_circle_svgrepo_com"
+        app:tint="#ffffff" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/instagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        app:backgroundTint="#1B1813"
+        app:layout_constraintBottom_toBottomOf="@id/reddit"
+        app:layout_constraintRight_toLeftOf="@id/reddit"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"
+        app:srcCompat="@drawable/instagram_svgrepo_com"
+        app:tint="#ffffff" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/linkedin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        app:backgroundTint="#1B1813"
+        app:layout_constraintBottom_toBottomOf="@id/facebook"
+        app:layout_constraintRight_toLeftOf="@id/facebook"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"
+        app:srcCompat="@drawable/linkedin_linked_in_svgrepo_com"
+        app:tint="#ffffff" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/bluesky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        app:backgroundTint="#1B1813"
+        app:layout_constraintBottom_toBottomOf="@id/facebook"
+        app:layout_constraintRight_toLeftOf="@id/linkedin"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"
+        app:srcCompat="@drawable/butterfly_svgrepo_com"
+        app:tint="#ffffff" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/threads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        app:backgroundTint="#1B1813"
+        app:layout_constraintBottom_toBottomOf="@id/github"
+        app:layout_constraintRight_toLeftOf="@id/github"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"
+        app:tint="#ffffff"
+        app:srcCompat="@drawable/spiral_31_svgrepo_com" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/xkipedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        app:backgroundTint="#1B1813"
+        app:layout_constraintBottom_toBottomOf="@id/reddit"
+        app:layout_constraintRight_toLeftOf="@id/instagram"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"
+        app:srcCompat="@drawable/wikipedia_logo_svgrepo_com"
+        app:tint="#ffffff"
+        tools:layout_editor_absoluteX="67dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/xbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        app:backgroundTint="#1B1813"
+        app:layout_constraintBottom_toBottomOf="@id/github"
+        app:layout_constraintRight_toLeftOf="@+id/threads"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"
+        app:tint="#ffffff"
+        app:srcCompat="@drawable/twitter_154_svgrepo_com" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/github"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_marginBottom="20dp"
+        app:backgroundTint="#1B1813"
+        app:layout_constraintBottom_toTopOf="@id/facebook"
+        app:layout_constraintLeft_toLeftOf="@id/menubtn"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"
+        app:tint="#ffffff"
+        app:srcCompat="@drawable/github_142_svgrepo_com" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
