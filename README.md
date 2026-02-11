@@ -1,7 +1,13 @@
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Language](https://img.shields.io/badge/Language-Java-orange.svg)
+![IDE](https://img.shields.io/badge/IDE-Android%20Studio-blue.svg)
+![Version](https://img.shields.io/badge/Release-v1.0--Beta-blue.svg)
+![Size](https://img.shields.io/github/repo-size/Knight-project/Sociality)
+
 ---
 
 # Sociality Beta-1.0
-### *A minimalist webwrapper for modern Social Media websites*
+> *A minimalist webwrapper for modern Social Media websites*
 
 ---
 
@@ -34,6 +40,17 @@ The problem is that using social media via a mobile browser is usually a clunky,
 
 ---
 
+### Visual Changes
+<small> *Sociality surgically removes "Download App" bloat to reclaim your screen space along with other UI fixes.* </small>
+
+| Feature | Standard Webview (Before) | Sociality (After Injection) |
+| :--- | :--- | :--- |
+| **X (Twitter)** | <img src="screenshots/x_before.png" width="300" alt="Standard X view with banners"/> | <img src="screenshots/x_after.png" width="300" alt="Sociality clean X view"/> |
+| **Reddit** | <img src="screenshots/reddit_before.png" width="300" alt="Reddit app prompts"/> | <img src="screenshots/reddit_after.png" width="300" alt="Reddit clean view"/> |
+| **Instagram** | <img src="screenshots/ig_before.png" width="300" alt="Instagram web bloat"/> | <img src="screenshots/ig_after.png" width="300" alt="Instagram clean view"/> |
+
+---
+
  ### Supported Platforms
 <small> Only the listed sites are supported now... </small>
 
@@ -50,7 +67,8 @@ The problem is that using social media via a mobile browser is usually a clunky,
 ---
 
 ### Deep Link Setup (CRITICAL)
-<smal> The app will prompt you to do this everytime you open it if you do not do this.</small>
+<small> The app will prompt you to do this everytime you open it if you do not do this.</small>
+
 To ensure **Sociality** handles social media links instead of your default browser, you must manually enable link handling in the Android system settings.
 
 > ### Manual Action Required
@@ -65,13 +83,22 @@ To ensure **Sociality** handles social media links instead of your default brows
 
 ---
 
-### Visual Changes
-<small> *Sociality surgically removes "Download App" bloat to reclaim your screen space along with other UI fixes.* </small>
+ ### Future Roadmap
 
-| Feature | Standard Webview (Before) | Sociality (After Injection) |
-| :--- | :--- | :--- |
-| **X (Twitter)** | <img src="screenshots/x_before.png" width="300" alt="Standard X view with banners"/> | <img src="screenshots/x_after.png" width="300" alt="Sociality clean X view"/> |
-| **Reddit** | <img src="screenshots/reddit_before.png" width="300" alt="Reddit app prompts"/> | <img src="screenshots/reddit_after.png" width="300" alt="Reddit clean view"/> |
-| **Instagram** | <img src="screenshots/ig_before.png" width="300" alt="Instagram web bloat"/> | <img src="screenshots/ig_after.png" width="300" alt="Instagram clean view"/> |
+> *List of changes yet to come*
+ 
+* **Remove Instagram/ figure out a beter implementation.**
+* **Full restructuring of the app for even better performance, I.E Using state-mangement/multiple webviews.**
+* **Add support for other social media.**
+  
+---
+
+## License
+
+This project is licensed under the **MIT License**. 
+
+I believe in open-source and the right to a bloat-free web. You are free to use, modify, and distribute this software, provided that the original license and copyright notice are included. 
+
+See the [LICENSE](LICENSE) file for the full legal text.
 
 ---
