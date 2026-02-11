@@ -45,9 +45,9 @@ The problem is that using social media via a mobile browser is usually a clunky,
 
 | Feature | Standard Webview (Before) | Sociality (After Injection) |
 | :--- | :--- | :--- |
-| **X (Twitter)** | <img src="screenshots/x_before.png" width="300" alt="Standard X view with banners"/> | <img src="screenshots/x_after.png" width="300" alt="Sociality clean X view"/> |
 | **Reddit** | <img src="screenshots/reddit_before.png" width="300" alt="Reddit app prompts"/> | <img src="screenshots/reddit_after.png" width="300" alt="Reddit clean view"/> |
-| **Instagram** | <img src="screenshots/ig_before.png" width="300" alt="Instagram web bloat"/> | <img src="screenshots/ig_after.png" width="300" alt="Instagram clean view"/> |
+
+> ***Unable to show other exampled due to Privacy and Doxxing Concerns***
 
 ---
 
