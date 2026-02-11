@@ -99,6 +99,6 @@ This project is licensed under the **MIT License**.
 
 I believe in open-source and the right to a bloat-free web. You are free to use, modify, and distribute this software, provided that the original license and copyright notice are included. 
 
-See the [LICENSE](LICENSE) file for the full legal text.
+See the [LICENSE](LICENSE.md) file for the full legal text.
 
 ---
